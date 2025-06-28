@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduCatalog Navbar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@400;700&family=Times+New+Roman&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="top-nav" aria-label="Main navigation">
+        <div class="nav-container">
+            <!-- Logo -->
+            <div class="logo-container">
+                <a href="/index.html" class="logo-link" aria-label="EduCatalog Home">
+                    <img src="/images/educatalog-logo.jpg" alt="EduCatalog Logo" class="logo-img">
+                    <div class="logo-text">
+                        <span class="logo-text-main">EduCatalog</span>
+                        <span class="logo-text-sub bengali-text">শিক্ষার আলো</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <ul class="nav-list">
+                <li><a href="/index.html" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+
+                <!-- SSC Mega Menu -->
+                <li class="dropdown mega-dropdown">
+                    <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="ssc-menu">
+                        <i class="fas fa-graduation-cap"></i> SSC <i class="fas fa-chevron-down dropdown-arrow"></i>
+                    </button>
+                    <div id="ssc-menu" class="dropdown-menu mega-menu">
+                        <div class="mega-menu-content">
+                            <!-- Languages Section -->
+                            <div class="mega-menu-section">
+                                <h3><i class="fas fa-language"></i> Languages</h3>
+                                <ul>
+                                    <li><a href="/ssc/bangla-1st.html" class="dropdown-link bengali-text"><i class="fas fa-book"></i> বাংলা ১ম পত্র</a></li>
+                                    <li><a href="/ssc/bangla-2nd.html" class="dropdown-link bengali-text"><i class="fas fa-book"></i> বাংলা ২য় পত্র</a></li>
+                                    <li><a href="/ssc/english-1st.html" class="dropdown-link"><i class="fas fa-book"></i> English 1st Paper</a></li>
+                                    <li><a href="/ssc/english-2nd.html" class="dropdown-link"><i class="fas fa-book"></i> English 2nd Paper</a></li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Sciences Section -->
+                            <div class="mega-menu-section">
+                                <h3><i class="fas fa-flask"></i> Sciences</h3>
+                                <ul>
+                                    <li><a href="/ssc/physics-1st.html" class="dropdown-link"><i class="fas fa-atom"></i> Physics 1st Paper</a></li>
+                                    <li><a href="/ssc/physics-2nd.html" class="dropdown-link"><i class="fas fa-atom"></i> Physics 2nd Paper</a></li>
+                                    <li><a href="/ssc/chemistry-1st.html" class="dropdown-link"><i class="fas fa-flask"></i> Chemistry 1st Paper</a></li>
+                                    <li><a href="/ssc/chemistry-2nd.html" class="dropdown-link"><i class="fas fa-flask"></i> Chemistry 2nd Paper</a></li>
+                                    <li><a href="/ssc/biology-1st.html" class="dropdown-link"><i class="fas fa-dna"></i> Biology 1st Paper</a></li>
+                                    <li><a href="/ssc/biology-2nd.html" class="dropdown-link"><i class="fas fa-dna"></i> Biology 2nd Paper</a></li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Technology Section -->
+                            <div class="mega-menu-section">
+                                <h3><i class="fas fa-laptop-code"></i> Technology</h3>
+                                <ul>
+                                    <li><a href="/ssc/ict.html" class="dropdown-link"><i class="fas fa-computer"></i> ICT</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- HSC Mega Menu -->
+                <li class="dropdown mega-dropdown">
+                    <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="hsc-menu">
+                        <i class="fas fa-user-graduate"></i> HSC <i class="fas fa-chevron-down dropdown-arrow"></i>
+                    </button>
+                    <div id="hsc-menu" class="dropdown-menu mega-menu">
+                        <div class="mega-menu-content">
+                            <!-- Languages Section -->
+                            <div class="mega-menu-section">
+                                <h3><i class="fas fa-language"></i> Languages</h3>
+                                <ul>
+                                    <li><a href="/hsc/bangla-1st.html" class="dropdown-link bengali-text"><i class="fas fa-book"></i> বাংলা ১ম পত্র</a></li>
+                                    <li><a href="/hsc/bangla-2nd.html" class="dropdown-link bengali-text"><i class="fas fa-book"></i> বাংলা ২য় পত্র</a></li>
+                                    <li><a href="/hsc/english-1st.html" class="dropdown-link"><i class="fas fa-book"></i> English 1st Paper</a></li>
+                                    <li><a href="/hsc/english-2nd.html" class="dropdown-link"><i class="fas fa-book"></i> English 2nd Paper</a></li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Sciences Section -->
+                            <div class="mega-menu-section">
+                                <h3><i class="fas fa-flask"></i> Sciences</h3>
+                                <ul>
+                                    <li><a href="/hsc/physics-1st.html" class="dropdown-link"><i class="fas fa-atom"></i> Physics 1st Paper</a></li>
+                                    <li><a href="/hsc/physics-2nd.html" class="dropdown-link"><i class="fas fa-atom"></i> Physics 2nd Paper</a></li>
+                                    <li><a href="/hsc/chemistry-1st.html" class="dropdown-link"><i class="fas fa-flask"></i> Chemistry 1st Paper</a></li>
+                                    <li><a href="/hsc/chemistry-2nd.html" class="dropdown-link"><i class="fas fa-flask"></i> Chemistry 2nd Paper</a></li>
+                                    <li><a href="/hsc/biology-1st.html" class="dropdown-link"><i class="fas fa-dna"></i> Biology 1st Paper</a></li>
+                                    <li><a href="/hsc/biology-2nd.html" class="dropdown-link"><i class="fas fa-dna"></i> Biology 2nd Paper</a></li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Technology Section -->
+                            <div class="mega-menu-section">
+                                <h3><i class="fas fa-laptop-code"></i> Technology</h3>
+                                <ul>
+                                    <li><a href="/hsc/ict.html" class="dropdown-link"><i class="fas fa-computer"></i> ICT</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li><a href="/exam.html" class="nav-link"><i class="fas fa-clipboard-list"></i> Exam</a></li>
+                <li><a href="/contact.html" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-btn" class="menu-btn" aria-label="Open menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div id="mobile-nav" class="mobile-nav">
+            <ul class="mobile-nav-list">
+                <li><a href="/index.html" class="mobile-nav-link"><i class="fas fa-home"></i> Home</a></li>
+                
+                <li class="mobile-dropdown">
+                    <button class="mobile-nav-link mobile-dropdown-toggle" aria-expanded="false">
+                        <i class="fas fa-graduation-cap"></i> SSC <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <ul class="mobile-dropdown-menu">
+                        <li><a href="/ssc/bangla-1st.html" class="mobile-dropdown-link bengali-text"><i class="fas fa-book"></i> বাংলা ১ম পত্র</a></li>
+                        <li><a href="/ssc/bangla-2nd.html" class="mobile-dropdown-link bengali-text"><i class="fas fa-book"></i> বাংলা ২য় পত্র</a></li>
+                        <li><a href="/ssc/english-1st.html" class="mobile-dropdown-link"><i class="fas fa-book"></i> English 1st Paper</a></li>
+                        <li><a href="/ssc/english-2nd.html" class="mobile-dropdown-link"><i class="fas fa-book"></i> English 2nd Paper</a></li>
+                        <li><a href="/ssc/ict.html" class="mobile-dropdown-link"><i class="fas fa-computer"></i> ICT</a></li>
+                        <li><a href="/ssc/physics-1st.html" class="mobile-dropdown-link"><i class="fas fa-atom"></i> Physics 1st Paper</a></li>
+                        <li><a href="/ssc/physics-2nd.html" class="mobile-dropdown-link"><i class="fas fa-atom"></i> Physics 2nd Paper</a></li>
+                        <li><a href="/ssc/chemistry-1st.html" class="mobile-dropdown-link"><i class="fas fa-flask"></i> Chemistry 1st Paper</a></li>
+                        <li><a href="/ssc/chemistry-2nd.html" class="mobile-dropdown-link"><i class="fas fa-flask"></i> Chemistry 2nd Paper</a></li>
+                        <li><a href="/ssc/biology-1st.html" class="mobile-dropdown-link"><i class="fas fa-dna"></i> Biology 1st Paper</a></li>
+                        <li><a href="/ssc/biology-2nd.html" class="mobile-dropdown-link"><i class="fas fa-dna"></i> Biology 2nd Paper</a></li>
+                    </ul>
+                </li>
+                
+                <li class="mobile-dropdown">
+                    <button class="mobile-nav-link mobile-dropdown-toggle" aria-expanded="false">
+                        <i class="fas fa-user-graduate"></i> HSC <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <ul class="mobile-dropdown-menu">
+                        <li><a href="/hsc/bangla-1st.html" class="mobile-dropdown-link bengali-text"><i class="fas fa-book"></i> বাংলা ১ম পত্র</a></li>
+                        <li><a href="/hsc/bangla-2nd.html" class="mobile-dropdown-link bengali-text"><i class="fas fa-book"></i> বাংলা ২য় পত্র</a></li>
+                        <li><a href="/hsc/english-1st.html" class="mobile-dropdown-link"><i class="fas fa-book"></i> English 1st Paper</a></li>
+                        <li><a href="/hsc/english-2nd.html" class="mobile-dropdown-link"><i class="fas fa-book"></i> English 2nd Paper</a></li>
+                        <li><a href="/hsc/ict.html" class="mobile-dropdown-link"><i class="fas fa-computer"></i> ICT</a></li>
+                        <li><a href="/hsc/physics-1st.html" class="mobile-dropdown-link"><i class="fas fa-atom"></i> Physics 1st Paper</a></li>
+                        <li><a href="/hsc/physics-2nd.html" class="mobile-dropdown-link"><i class="fas fa-atom"></i> Physics 2nd Paper</a></li>
+                        <li><a href="/hsc/chemistry-1st.html" class="mobile-dropdown-link"><i class="fas fa-flask"></i> Chemistry 1st Paper</a></li>
+                        <li><a href="/hsc/chemistry-2nd.html" class="mobile-dropdown-link"><i class="fas fa-flask"></i> Chemistry 2nd Paper</a></li>
+                        <li><a href="/hsc/biology-1st.html" class="mobile-dropdown-link"><i class="fas fa-dna"></i> Biology 1st Paper</a></li>
+                        <li><a href="/hsc/biology-2nd.html" class="mobile-dropdown-link"><i class="fas fa-dna"></i> Biology 2nd Paper</a></li>
+                    </ul>
+                </li>
+                
+                <li><a href="/exam.html" class="mobile-nav-link"><i class="fas fa-clipboard-list"></i> Exam</a></li>
+                <li><a href="/contact.html" class="mobile-nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <script src="/js/include-navbar.js"></script>
+</body>
+</html>
